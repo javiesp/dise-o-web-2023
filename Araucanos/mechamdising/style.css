@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poiret One', cursive;
+}
 li:hover {
     color: gray;
     background-color: #878787;
@@ -38,3 +41,9 @@ i{
 #copy{
     background-color:#bcbcb4;
 }
+.example-open .modal-backdrop{
+    background-color: red;
+}
+
+
+
