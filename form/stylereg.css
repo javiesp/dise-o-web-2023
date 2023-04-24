@@ -1,0 +1,45 @@
+.iniciosesion-cont{
+    width: 100%;
+    background-color: #bcbcb4;
+    display: flex;
+    background-image: url(img/fondo.jpg);
+}
+#logo{
+    font-family: 'Aboreto', cursive; 
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+#form-cont{
+    background-color: black;
+    margin-top: 100px;
+    opacity: .8;
+    width: 70%;
+}
+#formulario {
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+#formulario input{
+    width: 10 0%;
+    align-items: center;
+    
+}
+.centrar{
+    margin-top: 15px;
+    align-items: center;
+    opacity: 1;
+    color: blanchedalmond;
+    opacity: 1;
+}
+.centrar button{
+    background-color: blanchedalmond;
+    color: black;
+}
+#ver-contraseña{
+    cursor:pointer;
+}
+button:hover{
+    background-color: #bcbcb4;
+}
