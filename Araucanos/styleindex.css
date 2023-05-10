@@ -1,0 +1,115 @@
+*{
+    font-family: 'Poiret One', cursive;
+}
+/*============================== NAVBAR ============================*/
+#bar{
+    background-color: #EBEBEB;
+    position: sticky;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#logo{
+    font-family: 'Aboreto', cursive; color: #322203;
+}
+#sectioncard{
+    background-image: url(img/araucania2.png);
+    height: 20vh;
+}
+/*============================== CARRUSEL ============================*/
+#seccarrousel{
+    background: rgb(148,148,140);
+background: linear-gradient(90deg, rgba(148,148,140,1) 0%, rgba(171,170,165,1) 45%, rgba(180,180,176,1) 100%);
+}
+#carrouselinner{
+    height: 500px;
+}
+#carrouselinner img{
+    height: 600px;
+}
+/*============================== INFORMACION LINK ============================*/
+#informacionsec{
+    background-image: url(img/27085.jpg);
+}
+
+#cardsec{
+    background-color: #bcbcb4;
+}
+#card{
+    width: 15rem; height: 22rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#cardsec img{
+    height: 60%;
+}
+#cardsec a{
+    background-color: #8C6E4A;
+}
+
+#secquienessomos{
+    background: linear-gradient(45deg, transparent 49%, #43351A 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #43351A 49% 51%, transparent 51%);
+    background-size: 3em 3em;
+    background-color: #dfdfdc;
+    opacity: 1;
+}
+#qscard{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ededec;
+    width: 18rem;
+}
+#qscard:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ededec;
+    width: 19rem;
+    transition-delay: 2s;
+}
+/*============================== REGISTRO COMUNIDAD ============================*/
+#comsec{
+    height: 40vh;
+    background: rgb(144,108,76);
+    background: linear-gradient(90deg, rgba(144,108,76,1) 0%, rgba(162,130,94,1) 45%, rgba(193,177,131,1) 100%);
+}
+#btnpropiedad{
+    background-color: #906c49;
+    color: #EBEBEB;
+}
+/*============================== FOOTER ============================*/
+#footer{
+    color:#43351a;
+    background-color: #ebebeb;
+}
+i{
+    color: #906c49;
+}
+#copy{
+    background-color:#bcbcb4;
+}
+#btnpropiedad{
+    background-color: #906c49;
+    color: #EBEBEB;
+}
+
+
+li:hover {
+    color: gray;
+    background-color: #878787;
+    border-radius: 20px;
+    opacity: 0.6;
+    transition: 1s;
+  }
+  .typing{
+    font-family: 'Aboreto', cursive; 
+    color: #322203;
+    display: block;
+    text-align: center;
+    border-right: .15em solid;
+    animation: typing 4s steps(40) 1s 1 normal both, blink 1s steps(1) ;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  @keyframes blink {
+    50% {border-color: transparent;}
+}
+  @keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}

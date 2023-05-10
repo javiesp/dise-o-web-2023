@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poiret One', cursive;
+}
+li:hover {
+    color: gray;
+    background-color: #878787;
+    border-radius: 20px;
+    opacity: 0.6;
+    transition: 1s;
+}
+/*================================== SECTION ========================================*/
+#bar{
+    background-color: #EBEBEB;
+    position: sticky;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#logo{
+    font-family: 'Aboreto', cursive; color: #322203;
+}
+#fototag{
+    height: 30vh;
+    background-image: url(img/27085.jpg);
+}
+#fototag h1{
+    font-family: 'Aboreto', cursive;
+}
+#seccards{
+    background: linear-gradient(9deg, rgba(220,216,207,1) 0%, rgba(167,162,150,1) 45%, rgba(109,103,89,1) 100%);
+}
+#cardbtn{
+    background-color: #8C6E4A;
+}
+/*================================== FOOTER ========================================*/
+#footer{
+    color:#43351a;
+    background-color: #ebebeb;
+}
+i{
+    color: #906c49;
+}
+#copy{
+    background-color:#bcbcb4;
+}
+.example-open .modal-backdrop{
+    background-color: red;
+}
+
+
+
